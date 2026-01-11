@@ -60,13 +60,8 @@ rosdepc update
 
 1. **获取项目代码**
 
-   将项目克隆或复制到工作空间的 `src` 目录下：
-
    ```bash
-   mkdir -p ~/fr3_welding_ws/src
-   cd ~/fr3_welding_ws/src
-   # 如果是Git仓库：git clone https://github.com/maojum/fr3_welding.git
-   # 或者直接复制项目文件到此目录
+   git clone https://github.com/maojum/fr3_welding.git
    ```
 
 2. **一键安装依赖**
@@ -74,14 +69,14 @@ rosdepc update
    利用 `rosdepc` 根据代码中的 `package.xml` 自动安装所需依赖：
 
    ```bash
-   cd ~/fr3_welding_ws
-   rosdepc install --from-paths src --ignore-src -r -y
+   cd fr3_welding
+   rosdepc install --from-paths . --ignore-src -r -y
    ```
 
 ### 5. 构建项目
 
 ```bash
-cd ~/fr3_welding_ws
+cd fr3_welding
 colcon build --symlink-install
 source install/setup.bash
 ```

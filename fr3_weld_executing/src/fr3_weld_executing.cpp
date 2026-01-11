@@ -62,30 +62,6 @@ int main(int argc, char **argv)
     {
         arm.execute(plan1);
     }
-    //从欧拉角转到四元数
-    // tf2::Quaternion q;
-    // q.setRPY(0.0, 3.14, 0);
-    // q = q.normalize();
-
-    // geometry_msgs::msg::PoseStamped target_pose1;
-    // target_pose1.header.frame_id = "base_link";
-    // target_pose1.pose.position.x = 0.2;
-    // target_pose1.pose.position.y = 0.5;
-    // target_pose1.pose.position.z = 0.2;
-    // target_pose1.pose.orientation.x = q.getX();
-    // target_pose1.pose.orientation.y = q.getY();
-    // target_pose1.pose.orientation.z = q.getZ();
-    // target_pose1.pose.orientation.w = q.getW();
-    // arm.setStartStateToCurrentState();
-    // arm.setPoseTarget(target_pose1);
-    // moveit::planning_interface::MoveGroupInterface::Plan plan1;
-    // bool success1 = (arm.plan(plan1) == moveit::core::MoveItErrorCode::SUCCESS);
-
-    // if (success1)
-    // {
-    //     arm.execute(plan1);
-    // }
-    //--------------------------------------------------------------------------------
     // 保持当前末端姿态，仅修改位置到目标点
     geometry_msgs::msg::Quaternion keep_orientation = arm.getCurrentPose().pose.orientation;
 
@@ -104,30 +80,6 @@ int main(int argc, char **argv)
     {
         arm.execute(plan2);
     }
-
-    // 从欧拉角转到四元数
-    // tf2::Quaternion q;
-    // q.setRPY(0.0, 3.14, 1.57);
-    // q = q.normalize();
-
-    // geometry_msgs::msg::PoseStamped target_pose;
-    // target_pose.header.frame_id = "base_link";
-    // target_pose.pose.position.x = 0.006;
-    // target_pose.pose.position.y = -0.4;
-    // target_pose.pose.position.z = 0.02;
-    // target_pose.pose.orientation.x = q.getX();
-    // target_pose.pose.orientation.y = q.getY();
-    // target_pose.pose.orientation.z = q.getZ();
-    // target_pose.pose.orientation.w = q.getW();
-    // arm.setStartStateToCurrentState();
-    // arm.setPoseTarget(target_pose);
-    // moveit::planning_interface::MoveGroupInterface::Plan plan2;
-    // bool success2 = (arm.plan(plan2) == moveit::core::MoveItErrorCode::SUCCESS);
-
-    // if (success2)
-    // {
-    //     arm.execute(plan2);
-    // }
 
     // 等待接收焊缝轨迹点 - 如果1秒内没有新点到来，认为接收完成
     std::chrono::steady_clock::time_point last_update = std::chrono::steady_clock::now();

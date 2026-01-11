@@ -48,8 +48,5 @@ Thumbs.db
 *.temp
 *.bak
 
-# Point cloud files (if not needed)
-*.pcd
-
 # RViz config backups
 *.rviz.bak

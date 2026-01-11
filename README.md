@@ -76,7 +76,13 @@ rosdepc update
    安装额外包
 
    ```bash
-   sudo apt install ros-jazzy-moveit ros-jazzy-moveit-visual-tools ros-jazzy-ros2-control ros-jazzy-ros2-controllers ros-jazzy-joint-state-broadcaster ros-jazzy-joint-trajectory-controller
+   sudo apt install \
+     ros-jazzy-moveit \
+     ros-jazzy-moveit-visual-tools \
+     ros-jazzy-ros2-control \
+     ros-jazzy-ros2-controllers \
+     ros-jazzy-joint-state-broadcaster \
+     ros-jazzy-joint-trajectory-controller
    ```
 
 ### 5. 构建项目
@@ -121,7 +127,8 @@ ros2 launch fr3_bringup fr3.launch.py
 ### 2. 运行焊接缝提取
 
 ```bash
-ros2 run weld_butt_seam_extracting weld_butt_seam_extracting_node --ros-args -p pcd_file_path:="./fr3_description/pointcloud/weldcomponent.pcd"
+ros2 run weld_butt_seam_extracting weld_butt_seam_extracting_node \
+  --ros-args -p pcd_file_path:="./fr3_description/pointcloud/weldcomponent.pcd"
 ```
 
 

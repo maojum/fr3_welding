@@ -1,1 +1,0 @@
-/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/ament_cmake_environment_hooks/local_setup.bash

@@ -1,1 +1,0 @@
-/home/a/zyj/fr3_welding/build/fr3_description/ament_cmake_environment_hooks/local_setup.sh

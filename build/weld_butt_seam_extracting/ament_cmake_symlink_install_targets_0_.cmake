@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/weld_butt_seam_extracting_node" "TARGETS" "weld_butt_seam_extracting_node" "DESTINATION" "lib/weld_butt_seam_extracting")

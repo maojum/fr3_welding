@@ -1,1 +1,0 @@
-/home/a/zyj/fr3_welding/fr3_bringup/launch/fr3.launch.py

@@ -1,1 +1,0 @@
-/home/a/zyj/fr3_welding/fr3_weld_moveit2_config/launch/move_group.launch.py

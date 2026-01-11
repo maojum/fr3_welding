@@ -1,9 +1,0 @@
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/uninstall.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/fr3_bringup_uninstall.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/test.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/edit_cache.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/rebuild_cache.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/list_install_components.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/install.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/install/local.dir
-/home/a/zyj/fr3_welding/build/fr3_bringup/CMakeFiles/install/strip.dir

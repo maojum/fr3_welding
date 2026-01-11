@@ -1,1 +1,0 @@
-rclcpp;pcl_ros;pcl_conversions;std_msgs;sensor_msgs;geometry_msgs;tf2;tf2_geometry_msgs;eigen;libopencv-dev;ament_lint_auto;ament_lint_common

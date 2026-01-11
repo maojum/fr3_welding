@@ -1,1 +1,0 @@
-/home/a/zyj/fr3_welding/build/fr3_bringup/ament_cmake_core/fr3_bringupConfig.cmake

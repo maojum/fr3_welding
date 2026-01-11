@@ -62,6 +62,7 @@ rosdepc update
 
    ```bash
    git clone https://github.com/maojum/fr3_welding.git
+   cd fr3_welding
    ```
 
 2. **一键安装依赖**
@@ -69,14 +70,12 @@ rosdepc update
    利用 `rosdepc` 根据代码中的 `package.xml` 自动安装所需依赖：
 
    ```bash
-   cd fr3_welding
    rosdepc install --from-paths . --ignore-src -r -y
    ```
 
 ### 5. 构建项目
 
 ```bash
-cd fr3_welding
 colcon build --symlink-install
 source install/setup.bash
 ```

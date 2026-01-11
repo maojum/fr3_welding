@@ -45,7 +45,7 @@ sudo apt update
 # 安装 colcon 构建工具
 sudo apt install python3-colcon-common-extensions
 
-# 安装 pip (如果尚未安装)
+# 安装 pip (如果尚未安装).
 sudo apt install python3-pip
 
 # 安装 rosdepc
@@ -73,12 +73,34 @@ rosdepc update
    rosdepc install --from-paths . --ignore-src -r -y
    ```
 
+   安装额外包
+
+   ```bash
+   sudo apt install ros-jazzy-moveit ros-jazzy-moveit-visual-tools ros-jazzy-ros2-control ros-jazzy-ros2-controllers ros-jazzy-joint-state-broadcaster ros-jazzy-joint-trajectory-controller
+   ```
+
 ### 5. 构建项目
 
 ```bash
 colcon build --symlink-install
 source install/setup.bash
 ```
+
+## Docker环境快速搭建
+docker快速部署环境
+
+### 使用Docker快速环境
+
+1. **构建完整环境镜像**：
+   ```bash
+   ./setup_docker.sh
+   ```
+
+Docker镜像已预安装：
+- Ubuntu 24.04 + ROS2 Jazzy
+- MoveIt2 + 相关工具
+- 项目代码 + 所有依赖
+- 预构建的项目
 
 ## 项目结构
 
@@ -106,10 +128,8 @@ ros2 run weld_butt_seam_extracting weld_butt_seam_extracting_node --ros-args -p 
 ## 实验任务
 
 1. **环境搭建**: 完成上述环境配置。
-2. **机器人建模**: 修改URDF文件，添加焊接工具。
-3. **运动规划**: 使用MoveIt2规划焊接路径。
-4. **缝提取算法**: 分析并改进焊接缝提取代码。
-5. **集成测试**: 实现完整的焊接流程。
+2. **集成测试**: 实现完整的焊接流程，并记录机械臂运行轨迹视频
+
 
 ## 注意事项
 
@@ -117,12 +137,6 @@ ros2 run weld_butt_seam_extracting weld_butt_seam_extracting_node --ros-args -p 
 - 如果遇到权限问题，使用sudo。
 - 虚拟机中可能需要调整显卡设置以运行RViz。
 - 实验过程中注意保存代码修改记录。
-
-## 故障排除
-
-- 构建失败：检查依赖是否安装，运行`rosdep install --from-paths src --ignore-src -r -y`
-- RViz无法启动：检查图形驱动，尝试`export LIBGL_ALWAYS_SOFTWARE=1`
-- 节点无法通信：确认ROS_DOMAIN_ID设置一致
 
 ## 参考资料
 

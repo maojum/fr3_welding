@@ -65,7 +65,7 @@ rosdepc update
    ```bash
    mkdir -p ~/fr3_welding_ws/src
    cd ~/fr3_welding_ws/src
-   # 如果是Git仓库：git clone <repository_url>
+   # 如果是Git仓库：git clone https://github.com/maojum/fr3_welding.git
    # 或者直接复制项目文件到此目录
    ```
 

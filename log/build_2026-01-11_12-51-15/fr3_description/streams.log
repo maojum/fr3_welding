@@ -1,0 +1,57 @@
+[0.007s] Invoking command in '/home/a/zyj/fr3_welding/build/fr3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/a/zyj/fr3_welding/fr3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/a/zyj/fr3_welding/install/fr3_description
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.094s] -- The CXX compiler identification is GNU 13.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.373s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.412s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.492s] -- Configuring done (0.5s)
+[0.494s] -- Generating done (0.0s)
+[0.496s] -- Build files have been written to: /home/a/zyj/fr3_welding/build/fr3_description
+[0.500s] Invoked command in '/home/a/zyj/fr3_welding/build/fr3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/a/zyj/fr3_welding/fr3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/a/zyj/fr3_welding/install/fr3_description
+[0.501s] Invoking command in '/home/a/zyj/fr3_welding/build/fr3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/a/zyj/fr3_welding/build/fr3_description -- -j20 -l20
+[0.527s] Invoked command in '/home/a/zyj/fr3_welding/build/fr3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/a/zyj/fr3_welding/build/fr3_description -- -j20 -l20
+[0.535s] Invoking command in '/home/a/zyj/fr3_welding/build/fr3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/a/zyj/fr3_welding/build/fr3_description
+[0.540s] -- Install configuration: ""
+[0.541s] -- Execute custom install script
+[0.541s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/arm.xacro
+[0.547s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/fr3.ros2_control.xacro
+[0.551s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/fr3.urdf.xacro
+[0.555s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/tool.xacro
+[0.562s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/workpiece.xacro
+[0.566s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/rviz/urdf_config.rviz
+[0.572s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/launch/display.launch.xml
+[0.580s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/base_link.STL
+[0.586s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/forearm_link.STL
+[0.592s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/shoulder_link.STL
+[0.597s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/tool_link.STL
+[0.601s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/upperarm_link.STL
+[0.606s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/wrist1_link.STL
+[0.613s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/wrist2_link.STL
+[0.619s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/wrist3_link.STL
+[0.623s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/welding_components/Welding_component_4.STL
+[0.627s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/ament_index/resource_index/package_run_dependencies/fr3_description
+[0.634s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/ament_index/resource_index/parent_prefix_path/fr3_description
+[0.639s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/ament_prefix_path.sh
+[0.645s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/ament_prefix_path.dsv
+[0.650s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/path.sh
+[0.655s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/path.dsv
+[0.661s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.bash
+[0.666s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.sh
+[0.671s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.zsh
+[0.675s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.dsv
+[0.681s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/package.dsv
+[0.686s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/ament_index/resource_index/packages/fr3_description
+[0.690s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/cmake/fr3_descriptionConfig.cmake
+[0.695s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/cmake/fr3_descriptionConfig-version.cmake
+[0.700s] -- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/package.xml
+[0.705s] Invoked command in '/home/a/zyj/fr3_welding/build/fr3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/a/zyj/fr3_welding/build/fr3_description

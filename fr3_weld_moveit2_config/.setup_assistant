@@ -1,0 +1,23 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: fr3_description
+    relative_path: urdf/fr3.urdf.xacro
+  srdf:
+    relative_path: config/fr3.srdf
+  package_settings:
+    author_name: vegyo
+    author_email: vegyo@vegyo.com
+    generated_timestamp: 1767782887
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position

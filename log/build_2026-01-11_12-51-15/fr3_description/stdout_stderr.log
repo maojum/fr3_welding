@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/a/zyj/fr3_welding/build/fr3_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/arm.xacro
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/fr3.ros2_control.xacro
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/fr3.urdf.xacro
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/tool.xacro
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/urdf/workpiece.xacro
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/rviz/urdf_config.rviz
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/launch/display.launch.xml
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/base_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/forearm_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/shoulder_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/tool_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/upperarm_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/wrist1_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/wrist2_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/fr3/wrist3_link.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/meshes/welding_components/Welding_component_4.STL
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/ament_index/resource_index/package_run_dependencies/fr3_description
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/ament_index/resource_index/parent_prefix_path/fr3_description
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/path.sh
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/environment/path.dsv
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.bash
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.sh
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.zsh
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/local_setup.dsv
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/package.dsv
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/ament_index/resource_index/packages/fr3_description
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/cmake/fr3_descriptionConfig.cmake
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/cmake/fr3_descriptionConfig-version.cmake
+-- Symlinking: /home/a/zyj/fr3_welding/install/fr3_description/share/fr3_description/package.xml

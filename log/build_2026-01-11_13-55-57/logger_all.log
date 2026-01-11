@@ -1,0 +1,173 @@
+[0.047s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'weld_butt_seam_extracting']
+[0.047s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['weld_butt_seam_extracting'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a0bc16504a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a0bc20c5790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a0bc20c5790>>)
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.065s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/a/zyj/fr3_welding'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_bringup) by extension 'ros'
+[0.080s] DEBUG:colcon.colcon_core.package_identification:Package 'fr3_bringup' with type 'ros.ament_cmake' and name 'fr3_bringup'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_description) by extension 'ros'
+[0.080s] DEBUG:colcon.colcon_core.package_identification:Package 'fr3_description' with type 'ros.ament_cmake' and name 'fr3_description'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_executing) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'fr3_weld_executing' with type 'ros.ament_cmake' and name 'fr3_weld_executing'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(fr3_weld_moveit2_config) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'fr3_weld_moveit2_config' with type 'ros.ament_cmake' and name 'fr3_weld_moveit2_config'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(weld_butt_seam_extracting) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'weld_butt_seam_extracting' with type 'ros.ament_cmake' and name 'weld_butt_seam_extracting'
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.092s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fr3_description' in 'fr3_description'
+[0.092s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fr3_weld_executing' in 'fr3_weld_executing'
+[0.092s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fr3_bringup' in 'fr3_bringup'
+[0.092s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fr3_weld_moveit2_config' in 'fr3_weld_moveit2_config'
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/a/zyj/fr3_welding/install
+[0.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 413 installed packages in /opt/ros/jazzy
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'cmake_target' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'cmake_clean_cache' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'cmake_clean_first' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'cmake_force_configure' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'ament_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'catkin_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'weld_butt_seam_extracting' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.117s] DEBUG:colcon.colcon_core.verb:Building package 'weld_butt_seam_extracting' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting', 'merge_install': False, 'path': '/home/a/zyj/fr3_welding/weld_butt_seam_extracting', 'symlink_install': False, 'test_result_base': None}
+[0.117s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.117s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/a/zyj/fr3_welding/weld_butt_seam_extracting' with build type 'ament_cmake'
+[0.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/a/zyj/fr3_welding/weld_butt_seam_extracting'
+[0.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/a/zyj/fr3_welding/weld_butt_seam_extracting -DCMAKE_INSTALL_PREFIX=/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/a/zyj/fr3_welding/weld_butt_seam_extracting -DCMAKE_INSTALL_PREFIX=/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting
+[2.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/a/zyj/fr3_welding/build/weld_butt_seam_extracting -- -j20 -l20
+[2.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/a/zyj/fr3_welding/build/weld_butt_seam_extracting -- -j20 -l20
+[2.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/a/zyj/fr3_welding/build/weld_butt_seam_extracting
+[2.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(weld_butt_seam_extracting)
+[2.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/a/zyj/fr3_welding/build/weld_butt_seam_extracting
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting' for CMake module files
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting' for CMake config files
+[2.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('weld_butt_seam_extracting', 'cmake_prefix_path')
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/hook/cmake_prefix_path.ps1'
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/hook/cmake_prefix_path.dsv'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/hook/cmake_prefix_path.sh'
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/lib'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/bin'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/lib/pkgconfig/weld_butt_seam_extracting.pc'
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/lib/python3.12/site-packages'
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/bin'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.ps1'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.dsv'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.sh'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.bash'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.zsh'
+[2.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/colcon-core/packages/weld_butt_seam_extracting)
+[2.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(weld_butt_seam_extracting)
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting' for CMake module files
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting' for CMake config files
+[2.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('weld_butt_seam_extracting', 'cmake_prefix_path')
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/hook/cmake_prefix_path.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/hook/cmake_prefix_path.dsv'
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/hook/cmake_prefix_path.sh'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/lib'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/bin'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/lib/pkgconfig/weld_butt_seam_extracting.pc'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/lib/python3.12/site-packages'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/bin'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.ps1'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.dsv'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.sh'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.bash'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/weld_butt_seam_extracting/package.zsh'
+[2.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/a/zyj/fr3_welding/install/weld_butt_seam_extracting/share/colcon-core/packages/weld_butt_seam_extracting)
+[2.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.480s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.484s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.494s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/zyj/fr3_welding/install/local_setup.ps1'
+[2.495s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/zyj/fr3_welding/install/_local_setup_util_ps1.py'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/zyj/fr3_welding/install/setup.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/zyj/fr3_welding/install/local_setup.sh'
+[2.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/a/zyj/fr3_welding/install/_local_setup_util_sh.py'
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/zyj/fr3_welding/install/setup.sh'
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/zyj/fr3_welding/install/local_setup.bash'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/zyj/fr3_welding/install/setup.bash'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/a/zyj/fr3_welding/install/local_setup.zsh'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/a/zyj/fr3_welding/install/setup.zsh'

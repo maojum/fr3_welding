@@ -1,0 +1,9 @@
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/uninstall.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/fr3_weld_moveit2_config_uninstall.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/test.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/edit_cache.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/rebuild_cache.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/list_install_components.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/install.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/install/local.dir
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/CMakeFiles/install/strip.dir

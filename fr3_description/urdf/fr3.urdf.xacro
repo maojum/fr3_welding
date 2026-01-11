@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="fr3" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="arm.xacro" />
+    <xacro:include filename="tool.xacro" />
+    <xacro:include filename="workpiece.xacro" />
+    <xacro:include filename="fr3.ros2_control.xacro" />
+    <joint name="tool_welding_gun_joint" type="fixed">
+        <parent link="tool_link" />
+        <child link="welding_gun_link" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+
+</robot>

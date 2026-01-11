@@ -1,0 +1,1 @@
+/home/a/zyj/fr3_welding/fr3_weld_moveit2_config/launch/moveit_rviz.launch.py

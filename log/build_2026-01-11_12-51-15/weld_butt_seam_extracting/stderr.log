@@ -1,0 +1,469 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:21 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDrawLine.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmapeT.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamAllIntersectPoint.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmape.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamTwoPlane.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamRevolve.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDrawLine.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamDrawLine[m[K(pcl::ModelCoefficients::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDrawLine.cpp:111:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  111 |                 for (int i = 0; [01;35m[Ki < Temp_Filt->points.size()[m[K; i++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmapeT.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamDownSmapeT[m[K(std::vector<std::vector<Point_3D> >, std::vector<std::vector<Point_3D> >&, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr&, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmapeT.cpp:39:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   39 |         for (int i = 0;[01;35m[Ki < All_Plane_Point.size()[m[K;i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmapeT.cpp:42:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   42 |                 for (int j = 0;[01;35m[Kj < All_Plane_Point[i].size()[m[K;j++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmapeT.cpp:70:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   70 |                 for (int o = 0;[01;35m[Ko < Down_Temp_cloud->points.size()[m[K;o++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFindSelf.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamAllIntersectPoint.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamAllIntersectPoint[m[K(std::vector<std::vector<Point_3D> >, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamAllIntersectPoint.cpp:17:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   17 |         for (int i = 0; [01;35m[Ki < Filt_Unique_All_Line.size() - 1[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamAllIntersectPoint.cpp:20:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   20 |                 for (int j = i + 1; [01;35m[Kj < Filt_Unique_All_Line.size()[m[K; j++)
+      |                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamAllIntersectPoint.cpp:27:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   27 |                         for (int m = 0; [01;35m[Km < Filt_Unique_All_Line[i].size()[m[K; m++)
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamAllIntersectPoint.cpp:32:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   32 |                                 for (int n = 0; [01;35m[Kn < Filt_Unique_All_Line[j].size()[m[K; n++)
+      |                                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamLinkTwo.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCoefficient.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCluAllPlane.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFourPlane.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamIntersectLine.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/control/if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/punctuation/comma_if.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/comma_if.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/params.hpp:49[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.14/pcl/io/pcd_io.h:42[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/include/weld_butt_seam_extracting/weld_butt_seam_extracting_headfile.h:9[m[K,
+                 from [01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamSepAllPlane.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.14/pcl/keypoints/uniform_sampling.h:42:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead. (It will be removed in PCL 1.15)[m[K’
+   42 | [01;36m[KPCL_DEPRECATED_HEADER[m[K(1, 15, "UniformSampling is not a Keypoint anymore, use <pcl/filters/uniform_sampling.h> instead.")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmape.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamDownSmape[m[K(std::vector<std::vector<std::vector<Point_3D> > >, std::vector<std::vector<std::vector<Point_3D> > >&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmape.cpp:28:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::vector<Point_3D> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   28 |         for (int i = 0;[01;35m[Ki < All_Plane_Cluster.size()[m[K;i++)  // 遍历所有聚类（类别）
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmape.cpp:30:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |                 for (int j = 0;[01;35m[Kj < All_Plane_Cluster[i].size()[m[K;j++)  // 遍历当前聚类中的每个平面
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmape.cpp:33:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   33 |                         for (int u = 0;[01;35m[Ku < All_Plane_Cluster[i][j].size()[m[K;u++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamDownSmape.cpp:59:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   59 |                         for (int w = 0;[01;35m[Kw < Down_cloud->points.size()[m[K;w++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamRevolve.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamRevolve[m[K(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr&, Revolve)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamRevolve.cpp:71:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   71 |         for (int i = 0; [01;35m[Ki < All_cloud->points.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamRevolve.cpp:69:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksum[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   69 |         double [01;35m[Ksum[m[K = 0;  // 距离总和（用于调试，未使用）
+      |                [01;35m[K^~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamTwoPlane.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamTwoPlane[m[K(std::vector<std::vector<std::vector<Point_3D> > >, int&, int&, int&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamTwoPlane.cpp:17:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::vector<Point_3D> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   17 |         for (int i = 0;[01;35m[Ki < Dwon_All_Plane_Cluster.size()[m[K;i++)  // 遍历所有聚类（类别）
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamTwoPlane.cpp:21:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   21 |                 for (int j = 0;[01;35m[Kj < Dwon_All_Plane_Cluster[i].size() - 1[m[K;j++)  // 遍历当前聚类中的每个平面
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamTwoPlane.cpp:25:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   25 |                         for (int w = 0;[01;35m[Kw < Dwon_All_Plane_Cluster[i][j].size()[m[K;w++)  // 遍历平面j中的每个点
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamTwoPlane.cpp:30:54:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |                                 for (int e = j + 1;[01;35m[Ke < Dwon_All_Plane_Cluster[i].size()[m[K;e++)  // 遍历平面j之后的所有平面
+      |                                                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamTwoPlane.cpp:35:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   35 |                                         for (int r = 0;[01;35m[Kr < Dwon_All_Plane_Cluster[i][e].size()[m[K;r++)  // 遍历平面e中的每个点
+      |                                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFindSelf.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamFindSelf[m[K(pcl::PointCloud<pcl::PointXYZ>::Ptr, std::vector<Leading_Factor>, std::vector<double>, std::vector<double>&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFindSelf.cpp:101:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  101 |         for (int i = 0;[01;35m[Ki < More_Index_1.size()[m[K;i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamLinkTwo.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamLinkTwo[m[K(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr&, std::vector<std::vector<Point_3D> >&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamLinkTwo.cpp:36:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   36 |         for (int i = 0;[01;35m[Ki < All_IntersectPoint_1->points.size()[m[K;i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamLinkTwo.cpp:38:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   38 |                 for (int j = 0;[01;35m[Kj < All_IntersectPoint_2->points.size()[m[K;j++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamLinkTwo.cpp:59:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Compare>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   59 |                 for (int a = 0;[01;35m[Ka < Compare_Dist.size()[m[K;a++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamLinkTwo.cpp:144:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  144 |         for (int i = 0;[01;35m[Ki < End_Point_All_3.size()[m[K;i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamEndShow[m[K(std::vector<std::vector<Point_3D> >, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr&, std::vector<std::vector<Point_3D> >&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:23:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   23 |         for (int i = 0; [01;35m[Ki < Filt_Unique_All_Line.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:26:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   26 |                 for (int j = 0; [01;35m[Kj < Filt_Unique_All_Line[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:57:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   57 |                 for (int k = 0; [01;35m[Kk < Determine_All_IntersectPoint->points.size()[m[K; k++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:60:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   60 |                         for (int l = 0; [01;35m[Kl < Temp_Cloud->points.size()[m[K; l++)
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:127:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  127 |         for (int i = 0; [01;35m[Ki < End_Point_All.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:130:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  130 |                 for (int j = 0; [01;35m[Kj < End_Point_All[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamEndShow.cpp:157:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  157 |         for (int i = 0; [01;35m[Ki < End_Point_All.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamIntersectLine.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamIntersectLine[m[K(Leading_Factor, Leading_Factor, pcl::ModelCoefficients::Ptr&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamIntersectLine.cpp:40:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KSpace_Point_Dan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   40 |         Space_vector [01;35m[KSpace_Point_Dan[m[K;  // 归一化方向向量（未使用）
+      |                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCluAllPlane.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamCluAllPlane[m[K(std::vector<std::vector<Point_3D> >, std::vector<Leading_Factor>, std::vector<std::vector<std::vector<Point_3D> > >&, std::vector<Leading_Factor>&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCluAllPlane.cpp:19:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Leading_Factor>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   19 |         for (int i = 0;[01;35m[Ki < All_Factor.size()[m[K;i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamSepAllPlane.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamSepAllPlane[m[K(pcl::PointCloud<pcl::PointXYZ>::Ptr, std::vector<std::vector<Point_3D> >&, std::vector<Leading_Factor>&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamSepAllPlane.cpp:73:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   73 |                 for (int l = 0;[01;35m[Kl < cloudPlane->points.size()[m[K;l++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCluAllPlane.cpp:63:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Leading_Factor>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   63 |         for (int i = 0;[01;35m[Ki < New_All_Factor.size() - 1[m[K;i++)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCluAllPlane.cpp:70:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   70 |                 for (int q = 0;[01;35m[Kq < index.size()[m[K;q++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCluAllPlane.cpp:83:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Leading_Factor>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   83 |                         for (int j = i;[01;35m[Kj < New_All_Factor.size()[m[K;j++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFourPlane.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K SeamFourPlane[m[K(std::vector<std::vector<Point_3D> >, pcl::PointCloud<pcl::PointXYZ>::Ptr, std::vector<double>&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFourPlane.cpp:17:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   17 |         for (int i = 0;[01;35m[Ki < Down_Smape_All.size()[m[K;i++)  // 遍历所有平面
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamCluAllPlane.cpp:105:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  105 |                                         for (int k = 0;[01;35m[Kk < All_Plane_Point[j].size()[m[K;k++)
+      |                                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFourPlane.cpp:19:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   19 |                 for (int j = 0;[01;35m[Kj < Down_Smape_All[i].size()[m[K;j++)  // 遍历当前平面的每个点
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/SeamFourPlane.cpp:24:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   24 |                         for (int k = 0;[01;35m[Kk < Down_Target_Plane_1->points.size()[m[K;k++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:[m[K In function ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >[01;32m[K get_butt_weld_seam[m[K(const std::string&)[m[K’:
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:109:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  109 |         for (int i = 0; [01;35m[Ki < All_Plane_Cluster[target][target_1].size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:119:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  119 |         for (int j = 0; [01;35m[Kj < All_Plane_Cluster[target][target_2].size()[m[K; j++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:171:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  171 |         for (int l = 0; [01;35m[Kl < Accurate_Index_1.size()[m[K; l++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:173:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  173 |                 for (int d = 0; [01;35m[Kd < All_Plane_Point[Accurate_Index_1[l]].size()[m[K; d++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:194:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  194 |         for (int i = 0; [01;35m[Ki < Four_Like_Plane_1.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:196:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  196 |                 for (int j = 0; [01;35m[Kj < Four_Like_Plane_1[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:255:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  255 |         for (int i = 0; [01;35m[Ki < Four_Like_Plane_1.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:257:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  257 |                 for (int j = 0; [01;35m[Kj < Four_Like_Plane_1[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:299:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  299 |                 for (int i = 0; [01;35m[Ki < cloud_line_max->points.size()[m[K; i++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:350:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  350 |         for (int i = 0; [01;35m[Ki < All_Line_1.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:352:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  352 |                 for (int j = 0; [01;35m[Kj < All_Line_1[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:418:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  418 |         for (int l = 0; [01;35m[Kl < Accurate_Index_2.size()[m[K; l++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:420:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  420 |                 for (int d = 0; [01;35m[Kd < All_Plane_Point[Accurate_Index_2[l]].size()[m[K; d++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:441:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  441 |         for (int i = 0; [01;35m[Ki < Four_Like_Plane_2.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:443:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  443 |                 for (int j = 0; [01;35m[Kj < Four_Like_Plane_2[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:490:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  490 |         for (int i = 0; [01;35m[Ki < Four_Like_Plane_2.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:492:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  492 |                 for (int j = 0; [01;35m[Kj < Four_Like_Plane_2[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:534:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  534 |                 for (int i = 0; [01;35m[Ki < cloud_line_max->points.size()[m[K; i++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:585:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Point_3D> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  585 |         for (int i = 0; [01;35m[Ki < All_Line_2.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/a/zyj/fr3_welding/weld_butt_seam_extracting/src/weld_butt.cpp:587:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point_3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  587 |                 for (int j = 0; [01;35m[Kj < All_Line_2[i].size()[m[K; j++)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <link name="workpiece_link">
+    <visual>
+      <origin
+        xyz="-0.4 -0.72 0.02"
+        rpy="-1.5708 0 0" />
+        <!-- xyz="0 0 0.02"      此位置为工件模型的原点坐标与baselink的坐标系重合时的工件姿态
+        rpy="-1.5708 0 0" /> -->
+      <geometry>
+        <mesh filename="package://fr3_description/meshes/welding_components/Welding_component_4.STL" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="-0.4 -0.72 0.02"
+        rpy="-1.5708 0 0" />
+        <!-- xyz="0 0 0.02"
+        rpy="-1.5708 0 0" /> -->
+      <geometry>
+        <mesh filename="package://fr3_description/meshes/welding_components/Welding_component_4.STL" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="workpiece_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="workpiece_link" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  
+</robot>

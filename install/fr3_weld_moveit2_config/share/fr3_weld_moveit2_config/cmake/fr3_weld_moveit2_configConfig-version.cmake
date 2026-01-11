@@ -1,0 +1,1 @@
+/home/a/zyj/fr3_welding/build/fr3_weld_moveit2_config/ament_cmake_core/fr3_weld_moveit2_configConfig-version.cmake

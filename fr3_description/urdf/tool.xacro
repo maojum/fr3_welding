@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <link name="welding_gun_link">
+    <visual>
+      <origin
+        xyz="0 0 0.01"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://fr3_description/meshes/fr3/tool_link.STL" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0.01"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://fr3_description/meshes/fr3/tool_link.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="welding_gun_footprint_link"/>
+  <joint name="end_virtual_joint" type="fixed">
+        <parent link="welding_gun_link" />
+        <child link="welding_gun_footprint_link" />
+        <origin xyz="0 0 0.37" rpy="0 0.8 0" />
+  </joint>
+  
+</robot>

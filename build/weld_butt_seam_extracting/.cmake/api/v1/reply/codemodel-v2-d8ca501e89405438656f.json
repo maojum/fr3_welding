@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9548cf9b81a0719771a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "weld_butt_seam_extracting",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2460b094b31a49a6ae3a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weld_butt_seam_extracting_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weld_butt_seam_extracting_node-9c057f29f26bc6ccedb3.json",
+					"name" : "weld_butt_seam_extracting_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "weld_butt_seam_extracting_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-weld_butt_seam_extracting_uninstall-db5ac86ac7dbb0e89ac5.json",
+					"name" : "weld_butt_seam_extracting_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting",
+		"source" : "/home/a/zyj/fr3_welding/weld_butt_seam_extracting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

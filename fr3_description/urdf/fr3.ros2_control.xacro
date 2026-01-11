@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <ros2_control name="fr3_arm" type="system">
+      <hardware>
+          <!-- By default, set up controllers for simulation. This won't work on real hardware -->
+          <plugin>mock_components/GenericSystem</plugin>
+          <!-- <plugin>gz_ros2_control/GazeboSimSystem</plugin> -->
+      </hardware>
+      <joint name="j1">
+          <command_interface name="position"/>
+          <state_interface name="position">
+            <param name="initial_value">1.403</param>
+          </state_interface>
+      </joint>
+      <joint name="j2">
+          <command_interface name="position"/>
+          <state_interface name="position">
+            <param name="initial_value">-2.083</param>
+          </state_interface>
+      </joint>
+      <joint name="j3">
+          <command_interface name="position"/>
+          <state_interface name="position">
+            <param name="initial_value">1.696</param>
+          </state_interface>
+      </joint>
+      <joint name="j4">
+          <command_interface name="position"/>
+          <state_interface name="position">
+            <param name="initial_value">0.460</param>
+          </state_interface>
+      </joint>
+      <joint name="j5">
+          <command_interface name="position"/>
+          <state_interface name="position">
+            <param name="initial_value">1.436</param>
+          </state_interface>
+      </joint>
+      <joint name="j6">
+          <command_interface name="position"/>
+          <state_interface name="position">
+            <param name="initial_value">-0.908</param>
+          </state_interface>
+      </joint>
+
+  </ros2_control>
+
+</robot>

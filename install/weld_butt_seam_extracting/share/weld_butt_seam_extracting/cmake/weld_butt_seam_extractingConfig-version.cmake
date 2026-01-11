@@ -1,0 +1,1 @@
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/ament_cmake_core/weld_butt_seam_extractingConfig-version.cmake

@@ -1,0 +1,10 @@
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/uninstall.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/weld_butt_seam_extracting_uninstall.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/weld_butt_seam_extracting_node.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/test.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/edit_cache.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/rebuild_cache.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/list_install_components.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/install.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/install/local.dir
+/home/a/zyj/fr3_welding/build/weld_butt_seam_extracting/CMakeFiles/install/strip.dir

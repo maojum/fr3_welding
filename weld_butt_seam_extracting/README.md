@@ -40,7 +40,8 @@ source install/setup.bash
 ### 启动节点
 
 ```bash
-ros2 run weld_butt_seam_extracting weld_butt_seam_extracting_node --ros-args -p pcd_file_path:="./fr3_description/pointcloud/weldcomponent.pcd"
+ros2 run weld_butt_seam_extracting weld_butt_seam_extracting_node \
+  --ros-args -p pcd_file_path:="/home/vegyo/weldcomponent.pcd"
 ```
 
 ### 参数说明

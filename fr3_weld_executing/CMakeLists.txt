@@ -12,7 +12,6 @@ find_package(geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
-find_package(moveit_visual_tools REQUIRED)
 find_package(moveit_core REQUIRED)
 
 
@@ -22,7 +21,6 @@ set(dependencies
   tf2
   tf2_ros
   moveit_ros_planning_interface
-  moveit_visual_tools
   moveit_core
 )
 
